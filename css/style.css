@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {font-family: 'Quicksand', sans-serif;}
+
+h1, h2 {
+	text-transform: uppercase;
+	padding: 1.875em 0;
+}
+
+
+#container {text-align: center;}
+
+#addnew {width: 550px;}
+
+.inputContent {width: 400px !important;}
+
+.buttons {width: 400px;}

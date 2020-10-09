@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>To Do List jQuery</title>
+    <meta charset="utf-8">
+
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bg-danger">
+    <main id="container" class="d-flex flex-column justify-content-center">
+        <h1 id="title" class="text-center text-white">To-Do List</h1>
+        <form id= "addnew" role="form" class="d-flex justify-content-center align-self-center px-5 text-center">
+            <input id="new-task" type="text" class="form-control rounded-pill m-1" placeholder="Type here..." name="newTask">
+            <button id="button" type="button" class="btn btn-dark rounded-circle m-1">
+                <i class="fas fa-plus"></i>
+            </button>
+        </form>
+
+        <!-- Incomplete Tasks --->
+        <h2 class="text-center text-white">To do</h2>      
+        <div class="d-flex justify-content-center">
+            <ul id="incomplete-tasks" class="list-unstyled d-flex flex-column justify-content-center align-self-center"></ul>
+        </div>
+
+        <!-- Completed Tasks --->
+        <h2 class="text-center text-white">Done Chores</h2>
+        <div class="container">
+            <ul id="completed-tasks" class="list-unstyled d-flex flex-column justify-content-center align-items-center"></ul>
+        </div>
+    </main>
+
+
+    <!-- Font Awesome Icons 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- jQuery UI library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Custom script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
